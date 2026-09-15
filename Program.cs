@@ -24,9 +24,32 @@ if (age >= 21) {
  Console.WriteLine("Программа продолжает работу");
 
 int a = 15;
-if (a >= 18){
+if (a >= 18)
+{
     Console.WriteLine("Доступ разрешён");
-} else {
+}
+else
+{
     Console.WriteLine("Доступ запрещен");
     Console.WriteLine($"Осталось ждать до совершеннолетия: {18 - a} лет");
+}
+
+int ag = 58;
+if (ag < 13) {
+    Console.WriteLine("Ребенок");
+} else if (ag < 18){
+    Console.WriteLine("Подросток");
+} else if (ag < 60){
+    Console.WriteLine("Взрослый");
+} else {
+    Console.WriteLine("Пенсионер");
+}
+
+int age3 = 16;
+double height = 1.4;
+bool hasAdult = true;
+if (age3 >= 14 && height >= 1.5 || hasAdult ) {
+    Console.WriteLine("Можно кататься");
+} else {
+    Console.WriteLine("Пока нельзя ");
 }
