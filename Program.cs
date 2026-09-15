@@ -17,3 +17,16 @@ using System.Data;
 // // else
 // //     result = "Обычный результат";
 // Console.WriteLine(result);
+int age = 15;
+if (age >= 21) {
+     Console.WriteLine("Доступ разрешён");
+ }
+ Console.WriteLine("Программа продолжает работу");
+
+int a = 15;
+if (a >= 18){
+    Console.WriteLine("Доступ разрешён");
+} else {
+    Console.WriteLine("Доступ запрещен");
+    Console.WriteLine($"Осталось ждать до совершеннолетия: {18 - a} лет");
+}
